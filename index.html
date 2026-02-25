@@ -190,6 +190,47 @@
                 transform: rotate(360deg);
             }
         }
+
+        /* Responsive Mobile Layout */
+        @media screen and (max-width: 600px) {
+            #ui-panel {
+                top: auto;
+                bottom: 20px;
+                left: 10px;
+                right: 10px;
+                width: auto;
+                padding: 16px;
+                border-radius: 12px;
+                max-height: 40vh;
+                overflow-y: auto;
+            }
+
+            h1 {
+                font-size: 18px;
+            }
+
+            p.subtitle {
+                font-size: 12px;
+                margin-bottom: 16px;
+            }
+
+            #stats-panel {
+                margin-top: 16px;
+                padding-top: 16px;
+            }
+
+            .stat-value {
+                font-size: 16px;
+            }
+
+            .stat-label {
+                font-size: 9px;
+            }
+
+            #year-display {
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 
